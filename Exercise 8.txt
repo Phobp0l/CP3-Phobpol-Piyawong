@@ -1,0 +1,16 @@
+username = input("Username :")
+password = input("Password :")
+if username == "poom" and password == "PooM":
+  print("Done!!0")
+  print("------Welcome------")
+  print("1.Apple - 25")
+  print("2.Orange - 15")
+  userSelected = int(input("Please select number of product: "))
+  if userSelected == 1:
+    print("Your selected pen")
+    a = int(input("How many do you want :"))
+    print("total :" ,a*25,"THB")
+  elif userSelected == 2:
+    print("Your selected Orange")
+    o = int(input("How many do you want :"))
+    print("total :",o*15 )
